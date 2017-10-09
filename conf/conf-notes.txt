@@ -1,0 +1,9 @@
+################################
+
+Common targets are:
+	core-image-openavr-minimal
+
+Common bitbake commands:
+	bitbake core-image-openavr-minimal
+
+################################
