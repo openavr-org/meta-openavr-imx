@@ -19,6 +19,8 @@ IMAGE_INSTALL = " \
     htop \
     python3 \
     python3-pip \
+    minicom \
+    screen \
 "
 
 IMAGE_LINGUAS = " "
