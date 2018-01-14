@@ -2,8 +2,10 @@
 
 Common targets are:
 	core-image-openavr-minimal
+	core-image-openavr-sdk-target
 
 Common bitbake commands:
 	bitbake core-image-openavr-minimal
+	bitbake core-image-openavr-sdk-target
 
 ################################
