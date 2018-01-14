@@ -1,0 +1,7 @@
+alias ls='ls -F --color=auto'
+alias la='ls -a'
+alias l='ls -lh'
+alias lc='ls -al'
+alias rm='rm -i'
+alias cp='cp -i'
+alias env='env | sort'
