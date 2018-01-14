@@ -21,6 +21,7 @@ IMAGE_INSTALL = " \
     python3-pip \
     minicom \
     screen \
+    bash \
 "
 
 IMAGE_LINGUAS = " "
