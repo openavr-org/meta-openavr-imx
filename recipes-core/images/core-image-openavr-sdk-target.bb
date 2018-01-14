@@ -22,6 +22,7 @@ IMAGE_INSTALL = " \
     minicom \
     screen \
     bash \
+    modemmanager \
 "
 
 IMAGE_LINGUAS = " "
