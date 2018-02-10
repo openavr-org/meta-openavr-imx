@@ -19,6 +19,7 @@ IMAGE_INSTALL = " \
     minicom \
     screen \
     modemmanager \
+    networkd-config \
 "
 
 IMAGE_LINGUAS = " "
