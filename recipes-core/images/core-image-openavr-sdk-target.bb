@@ -1,27 +1,23 @@
-SUMMARY = "A small image just capable of allowing a device to boot."
+SUMMARY = "An image which includes dev tools and networking tools."
+
+IMAGE_FEATURES += "ssh-server-openssh"
+IMAGE_FEATURES += "tools-debug"
+IMAGE_FEATURES += "tools-sdk"
+#IMAGE_FEATURES += "dev-pkgs"
 
 IMAGE_INSTALL = " \
     packagegroup-core-boot \
+    packagegroup-core-full-cmdline \
     ${CORE_IMAGE_EXTRA_INSTALL} \
-    packagegroup-sdk-target \
     git \
-    file \
-    coreutils \
-    util-linux \
-    iputils \
-    sysfsutils \
     usbutils \
-    openssl \
     i2c-tools \
-    openssh \
     vim \
-    procps \
     htop \
     python3 \
     python3-pip \
     minicom \
     screen \
-    bash \
     modemmanager \
 "
 
