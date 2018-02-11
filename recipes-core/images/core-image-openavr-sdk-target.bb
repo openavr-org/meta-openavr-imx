@@ -20,6 +20,11 @@ IMAGE_INSTALL = " \
     screen \
     modemmanager \
     networkd-config \
+    mosquitto \
+    mosquitto-clients \
+    mosquitto-config \
+    paho-mqtt-c \
+    python3-paho-mqtt \
 "
 
 IMAGE_LINGUAS = " "
