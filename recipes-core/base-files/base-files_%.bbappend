@@ -18,3 +18,5 @@ FILES_${PN} += " \
     /home/root/.bash_profile \
     /home/root/.vimrc \
 "
+
+hostname = "imx7-iot"
